@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.50)),url(backgroundBluer.jpg);
+    background-position: center; 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.title{
+    font-size: 50px;
+    text-align: center; 
+    color: white;
+}
+
+.container{
+    width: 50%;
+    height: 400px;
+    background:#fff;
+    border:2px solid #fff;
+    box-shadow: 0 15px 40px rgb(0,0 ,0,.5);
+    margin-left: 500px;
+}
+
+.container .left{
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: url(image04.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.container .right{
+    float: right;
+    width: 50%;
+    height: 400px;
+    box-sizing: border-box;
+
+}
+
+.formBox{
+    width: 100%;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    height: 400px;
+    background: #fff;
+
+}
+label{
+    width: 100px;
+    display: inline-block;
+    color: red;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 80px;
+    height: 35px;
+    border-radius: 35px;
+    color: red;
+    background-color: white;
+    border: solid 1px black;
+}
+
+.btn:hover{
+    color: white;
+    background-color: red;
+}
+
+.btns{
+    text-align: center;
+}
+
+.formBox input{
+    margin-bottom: 10px;
+}

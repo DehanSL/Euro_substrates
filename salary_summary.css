@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:  linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.50)),url(background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.title{
+    font-size: 45px;
+    color: white;
+    background-color: red;
+    width: 800px;
+}
+.container{
+    width: 600px;
+    text-align: center;
+    height: 300px;
+    text-decoration:underline black;
+    font-size: 25px;
+    color: red;
+    background-color: white;
+}
+p{
+    background-color: black;
+}
+
