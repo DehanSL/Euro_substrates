@@ -1,0 +1,24 @@
+create a database using xampp name=company, 
+after that use this sql commands to create table and other process
+
+
+
+CREATE TABLE employees (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    phone_number VARCHAR(15) NOT NULL,
+    nic_number VARCHAR(15) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE salaries (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    employee_id INT,
+    basic_salary DECIMAL(10, 2) NOT NULL,
+    epf DECIMAL(10, 2) NOT NULL,
+    etf DECIMAL(10, 2) NOT NULL,
+    loan DECIMAL(10, 2) NOT NULL,
+    allowance DECIMAL(10, 2) NOT NULL,
+    FOREIGN KEY (employee_id) REFERENCES employees(id)
+);
